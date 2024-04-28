@@ -1,0 +1,33 @@
+{
+  "name": "dashboard-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustincejas/dashboard-be.git"
+  },
+  "author": "agustindcejas@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustincejas/dashboard-be/issues"
+  },
+  "homepage": "https://github.com/agustincejas/dashboard-be#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
