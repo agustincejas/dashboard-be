@@ -1,7 +1,11 @@
 # dashboard-be
 
-### Server start
-npm run start??
+`docker-compose up`
+`npm run start`
 
-### DB start
-docker-compose up
+Db explorer runs on : http://localhost:8081/db/dashboard/
+Server runs on: http://localhost:3001
+
+### test data
+
+`npm run populate` inserts records in the DB from a file located in /scripts
